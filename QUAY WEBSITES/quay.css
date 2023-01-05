@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    width: 100%;
+    height: 100;
+    background-image: url(images/img11.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0;
+}
+/* first div */
+.firstdiv{
+   width: 80vw;
+   margin: auto;
+   height: 90vh;
+   background-image: url(images/img14.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-radius: 20px;
+}
+/* nav starts here */
+nav{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.mage{
+    padding-top: 15px;
+}
+.btn{
+    width: 40vh;
+    text-align: left;
+    font-size: 14px;
+    color: #ffffff;
+    height: 5vh;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    padding: 0 10px;
+    background-color: transparent;
+}
+/* nav ends here */
+.quay{
+    text-align: center;
+}
+.quay h1{
+    color: #ffffff;
+    font-size: 80px;
+}
+.quay p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.apart{
+    display: flex;
+    padding-top: 15px;
+}
+.menuBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 190px;
+}
+.menuBtn{
+    padding: 8px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 25px;
+}
+.arrow{
+    margin-top: 20px;
+}
+/* firstdiv ends*/
+/* seconddiv starts */
+.seconddiv{
+    width: 80vw;
+    margin: auto;
+    height: 90vh;
+    padding-top: 40px;
+    background-image: url(images/img10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 90px;
+    border-radius: 20px;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.two{
+    padding: 20px 20px;
+}
+.sushi{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 30px;
+    color: #ffffff;
+}
+.sushi p{
+    display: flex;
+    align-content: flex-end;
+    font-size: 15px;
+}
+.sushi h2{
+    font-size: 35px;
+}
+.cart{
+    margin-top: 50px;
+}
+.cart button{
+    padding: 20px 20px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: rgb(12, 214, 46);
+}
+/* Seconddiv ends */
+/* Thirddiv starts */
+.thirddiv{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    background-image: url(images/img70.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 90px;
+    border-radius: 20px;
+}
+.grid-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 10px;
+    align-items: center;
+    
+}
+.grid-item{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+.grid-item img{
+    border-radius: 50%;
+}
+.sales{
+    color: #ffffff;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.grid-item h3{
+   padding: 20px;
+   color: #ffffff;
+}
+.grid-item h2{
+    color: #ffffff;
+}
+/* third div ends */
